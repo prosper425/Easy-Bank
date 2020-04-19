@@ -1,3 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.nav {
+  display: flex;
+}
+#logo {
+  flex: 1;
+  width: 33%;
+}
+.top-nav {
+  flex: 1;
+  width: 33%;
+}
+.btn {
+  flex: 1;
+  width: 33%;
+}
+#ham,
+#close {
+  display: none;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
